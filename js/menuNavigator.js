@@ -35,8 +35,15 @@ class MenuLink extends HTMLElement {
       font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 50px;
+      font-size: 40px;
      }
+
+     @media screen and  (max-width:748px) {
+      .menuitem .title {
+          font-size: 20px;
+        }
+      }
+
 
     .menuitem .arrow-link {
       color: #000000;
@@ -69,21 +76,18 @@ class MenuLink extends HTMLElement {
       opacity: .6; }
 
     @media screen and (min-width: 749px) {
-       .menuitem {
+       .menu-container {
         margin-bottom: 80px; } }
 
-    @media screen and (min-width: 200px) and (max-width:748px) {
-       .menuitem {
+    @media screen and  (max-width:748px) {
+       .menu-container {
         margin-bottom: 30px; 
         margin-left:20px;
 
         margin-right:10px;
         padding-top:20px;
         }
-
-        .menuitem .title {
-          font-size: 30px;
-        }
+        
       }
 
     </style>

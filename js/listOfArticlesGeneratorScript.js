@@ -65,13 +65,15 @@ class Articles extends HTMLElement {
      }
 
     @media screen and (min-width: 749px) {
-       .menuitem {
-        margin-bottom: 80px; } }
+       .menu-container {
+          margin-bottom: 80px; 
+      } 
+    }
 
     @media screen and (min-width: 200px) and (max-width:748px) {
-       .menuitem {
-        margin-bottom: 30px; 
-        margin-left:20px;
+       .menu-container {
+          margin-bottom: 30px; 
+          margin-left:20px;
 
       } }
 
