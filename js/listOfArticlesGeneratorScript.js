@@ -73,7 +73,8 @@ class Articles extends HTMLElement {
     @media screen and (min-width: 200px) and (max-width:748px) {
        .menu-container {
           margin-bottom: 30px; 
-          margin-left:20px;
+         
+
 
       } }
 
