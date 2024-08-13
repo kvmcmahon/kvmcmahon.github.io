@@ -36,7 +36,6 @@ class MenuLink extends HTMLElement {
       font-style: normal;
       font-weight: normal;
       font-size: 50px;
-      line-height: 1.4;
      }
 
     .menuitem .arrow-link {
@@ -44,7 +43,11 @@ class MenuLink extends HTMLElement {
       font-style: normal;
       font-weight: normal;
       text-decoration: underline;
-      transition: all 0.4s cubic-bezier(0.37, 0.875, 0.505, 1); }
+      transition: all 0.4s cubic-bezier(0.37, 0.875, 0.505, 1); 
+      opacity: 0;
+          transform: translateY(15%); 
+
+    }
 
       .menuitem .arrow-link svg {
         margin-left: 10px; }
@@ -53,12 +56,7 @@ class MenuLink extends HTMLElement {
         fill: #000000;
         transition: all 0.7s cubic-bezier(0.37, 0.875, 0.505, 1); }
 
-      @media screen and (min-width: 749px) 
-      {
-        .menuitem .arrow-link {
-          opacity: 0;
-          transform: translateY(15%); } 
-        }
+     
 
      .menuitem:hover .arrow-link {
       color: #000000;
@@ -73,6 +71,20 @@ class MenuLink extends HTMLElement {
     @media screen and (min-width: 749px) {
        .menuitem {
         margin-bottom: 80px; } }
+
+    @media screen and (min-width: 200px) and (max-width:748px) {
+       .menuitem {
+        margin-bottom: 30px; 
+        margin-left:20px;
+
+        margin-right:10px;
+        padding-top:20px;
+        }
+
+        .menuitem .title {
+          font-size: 30px;
+        }
+      }
 
     </style>
 

@@ -38,7 +38,8 @@ class Articles extends HTMLElement {
    .menu-container
    {
       max-width: 945px;
-      margin: 0 auto; }
+      margin:0 auto;
+       }
       
 
   
@@ -49,24 +50,16 @@ class Articles extends HTMLElement {
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
-      line-height: 1.4;
+    
      }
-
-
-
-      @media screen and (min-width: 749px) 
-      {
-        .menuitem .publication-link {
-          opacity: 0;
-          transform: translateY(15%); } 
-        }
 
      .menuitem .publication-link {
       font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-      color: #000000;
+      color: #807f7e;
       text-decoration: none;
       opacity: 1;
-      transform: translateY(0); }
+      transform: translateY(0);
+      font-size: 15px; }
      .menuitem:hover .publication-link{
         text-decoration: underline;
      }
@@ -74,6 +67,13 @@ class Articles extends HTMLElement {
     @media screen and (min-width: 749px) {
        .menuitem {
         margin-bottom: 80px; } }
+
+    @media screen and (min-width: 200px) and (max-width:748px) {
+       .menuitem {
+        margin-bottom: 30px; 
+        margin-left:20px;
+
+      } }
 
     </style>
     `;
