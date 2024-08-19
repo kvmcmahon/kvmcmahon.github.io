@@ -2,6 +2,13 @@ function cultureArticles(){
   return `
       <div class="menu-container">      
          <div class="menuitem">
+              <a class="link" href="https://www.businessinsider.com/unlimited-vacation-pto-wins-risks-2024-8">
+              <div class="title">Unlimited PTO is a high-stakes gamble</div><div class="publication-link">Business Insider (2024)</div>
+          </div> 
+      </div> 
+
+      <div class="menu-container">      
+         <div class="menuitem">
               <a class="link" href="https://www.thrillist.com/travel/nation/fear-of-flying-sudden-onset-aerophobia">
               <div class="title">Experienced Fliers Are Suddenly Terrified on Planes</div><div class="publication-link">Thrillist (2024)</div>
           </div> 

@@ -110,6 +110,40 @@ class Articles extends HTMLElement {
     {
       listOfArticles.innerHTML = listOfArticles.innerHTML + sportsArticles();
     }
+    else if(category == "ByPub")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + pubArticles();
+    }
+    else if(category == "Wired")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + wiredArticles();
+    }
+    else if(category == "TheInformation")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + theInformationArticles();
+    }
+     else if(category == "BusinessInsider")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + businessInsiderArticles();
+    }
+    else if(category == "Thrillist")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + thrillistArticles();
+    }
+    else if(category == "Sifted")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + siftedArticles();
+    }
+    else if(category == "TheBlock")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + theBlockArticles();
+    }
+    else if(category == "Unchained")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + unchainedArticles();
+    }
+
+
 
    this.shadowRoot.appendChild(listOfArticles.cloneNode(true));
  
