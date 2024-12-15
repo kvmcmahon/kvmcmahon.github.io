@@ -1,5 +1,21 @@
 function cultureArticles(){
   return `
+
+    <div class="menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.businessinsider.com/men-corporate-america-expensive-beauty-routines-spending-thousands-2024-12">
+              <div class="title">Men in corporate America spend thousands to look good — they just don't want you to know about it </div><div class="publication-link">Business Insider (2024)</div>
+          </div> 
+      </div> 
+      
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.billboard.com/music/pop/swifties-eras-tour-taylor-swift-1235846630/">
+              <div class="title">Games, Streams and Memes: It’s the End of an Era for Fans Who Powered Taylor Swift’s Eras Tour</div><div class="publication-link">Billboard (2024)</div>
+          </div> 
+      </div> 
+
+
       <div class="menu-container">      
          <div class="menuitem">
               <a class="link" href="https://www.businessinsider.com/unlimited-vacation-pto-wins-risks-2024-8">

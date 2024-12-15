@@ -2,6 +2,20 @@ function marketsArticles(){
   return `
       
 
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/cftc-crackdown-leads-to-surge-in-fines-for-swap-reporting-failures/">
+              <div class="title">CFTC crackdown leads to surge in fines for swap reporting failures</div><div class="publication-link">Banking, Risk & Regulation (2024)</div>
+          </div> 
+      </div> 
+
+     <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/analysis/future-expects-accelerating-growth-after-strong-h2-2024-revenue-comes-in-flat/">
+              <div class="title">Future Expects Accelerating Growth After Strong H2; 2024 Revenue Comes in Flat </div><div class="publication-link">A Media Operator (2024)</div>
+          </div> 
+      </div> 
+
     <div class="menu-container">      
          <div class="menuitem">
               <a class="link" href="https://www.businessinsider.com/russia-ukraine-invasion-stock-market-analysis-crypto-investing-strategy-outlook-2022-2">

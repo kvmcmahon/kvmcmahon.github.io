@@ -142,6 +142,25 @@ class Articles extends HTMLElement {
     {
       listOfArticles.innerHTML = listOfArticles.innerHTML + unchainedArticles();
     }
+    else if(category == "Billboard")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + billboardArticles();
+    }
+    else if(category == "GolfMonthly")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + golfMonthlyArticles();
+    }
+    else if(category == "AMO")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + AMOArticles();
+    }
+     else if(category == "BankingRiskReg")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + bankingRiskRegArticles();
+    }
+
+
+
 
 
 

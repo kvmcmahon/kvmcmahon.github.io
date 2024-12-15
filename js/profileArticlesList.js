@@ -1,5 +1,14 @@
 function profileArticles(){
   return `
+      
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/profile/uk-publisher-mill-media-grows-profits-amid-shrinking-local-news-market/">
+              <div class="title">UK Publisher Mill Media Grows & Profits Amid Shrinking Local News Market</div><div class="publication-link">A Media Operator (2024)</div>
+          </div> 
+      </div> 
+
+
       <div class="menu-container">      
          <div class="menuitem">
               <a class="link" href="https://www.theblock.co/post/186476/who-is-billionaire-ftx-co-founder-gary-wang-and-why-is-he-still-committing-code">

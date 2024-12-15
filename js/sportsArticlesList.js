@@ -3,6 +3,14 @@ function sportsArticles(){
       
        <div class="text menu-container">      
          <div class="menuitem">
+              <a class="link" href="https://www.golfmonthly.com/features/lpga-q-school-vs-epson-tour-whats-the-difference">
+              <div class="title">LPGA Q-School vs Epson Tour: What’s The Difference?</div><div class="publication-link">Golf Monthly (2024)</div>
+          </div> 
+      </div> 
+
+
+       <div class="text menu-container">      
+         <div class="menuitem">
               <a class="link" href="https://www.businessinsider.com/top-crypto-industry-marketers-sports-sponsorship-marketing-billion-dollar-deals-2022-4">
               <div class="title">Meet 13 dealmakers who are leading crypto's multimillion dollar spending spree on sports marketing, from $7 million Super Bowl ads to sponsoring the McLaren Formula 1 team</div><div class="publication-link">Business Insider (2022)</div>
           </div> 

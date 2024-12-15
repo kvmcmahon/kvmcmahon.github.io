@@ -8,6 +8,10 @@ function pubArticles(){
        <menu-link linkName="Sifted" linkURL="../html/listOfArticles.html?category=Sifted" ></menu-link>
        <menu-link linkName="The Block" linkURL="../html/listOfArticles.html?category=TheBlock" ></menu-link>
        <menu-link linkName="Unchained" linkURL="../html/listOfArticles.html?category=Unchained" ></menu-link>
+       <menu-link linkName="Billboard" linkURL="../html/listOfArticles.html?category=Billboard" ></menu-link>
+       <menu-link linkName="Golf Monthly" linkURL="../html/listOfArticles.html?category=GolfMonthly" ></menu-link>
+       <menu-link linkName="A Media Operator" linkURL="../html/listOfArticles.html?category=AMO" ></menu-link>
+       <menu-link linkName="Banking, Risk & Regulation" linkURL="../html/listOfArticles.html?category=BankingRiskReg" ></menu-link>
       `;
 }
 
@@ -41,6 +45,15 @@ function theInformationArticles(){
 
 function businessInsiderArticles(){
      return `
+     
+     <div class="menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.businessinsider.com/men-corporate-america-expensive-beauty-routines-spending-thousands-2024-12">
+              <div class="title">Men in corporate America spend thousands to look good — they just don't want you to know about it </div><div class="publication-link">Business Insider (2024)</div>
+          </div> 
+      </div> 
+
+
       <div class="menu-container">      
          <div class="menuitem">
               <a class="link" href="https://www.businessinsider.com/unlimited-vacation-pto-wins-risks-2024-8">
@@ -274,4 +287,88 @@ function unchainedArticles(){
       </div> 
 
       `;
+}
+
+function billboardArticles(){
+      return `
+      
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.billboard.com/music/pop/swifties-eras-tour-taylor-swift-1235846630/">
+              <div class="title">Games, Streams and Memes: It’s the End of an Era for Fans Who Powered Taylor Swift’s Eras Tour</div><div class="publication-link">Billboard (2024)</div>
+          </div> 
+      </div> 
+
+
+
+      `;
+
+}
+
+function golfMonthlyArticles(){
+      return `
+      
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.golfmonthly.com/features/lpga-q-school-vs-epson-tour-whats-the-difference">
+              <div class="title">LPGA Q-School vs Epson Tour: What’s The Difference?</div><div class="publication-link">Golf Monthly (2024)</div>
+          </div> 
+      </div> 
+
+
+
+      `;
+
+}
+
+function AMOArticles(){
+      return `
+      
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/news/what-is-tortoise-media-the-loss-making-media-startup-trying-to-buy-the-uks-observer/">
+              <div class="title">What Is Tortoise Media? The Loss-Making Media Startup Trying to Buy the UK’s Observer</div><div class="publication-link">A Media Operator (2024)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/analysis/future-expects-accelerating-growth-after-strong-h2-2024-revenue-comes-in-flat/">
+              <div class="title">Future Expects Accelerating Growth After Strong H2; 2024 Revenue Comes in Flat </div><div class="publication-link">A Media Operator (2024)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/profile/uk-publisher-mill-media-grows-profits-amid-shrinking-local-news-market/">
+              <div class="title">UK Publisher Mill Media Grows & Profits Amid Shrinking Local News Market</div><div class="publication-link">A Media Operator (2024)</div>
+          </div> 
+      </div> 
+
+        <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/news/after-billion-dollar-informa-deal-ceo-bets-on-jacobs-media/">
+              <div class="title">After Billion Dollar Informa Deal, CEO Bets on Jacobs Media</div><div class="publication-link">A Media Operator (2024)</div>
+          </div> 
+      </div> 
+
+
+
+
+      `;
+
+}
+
+function bankingRiskRegArticles(){
+      return `
+      
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/cftc-crackdown-leads-to-surge-in-fines-for-swap-reporting-failures/">
+              <div class="title">CFTC crackdown leads to surge in fines for swap reporting failures</div><div class="publication-link">Banking, Risk & Regulation (2024)</div>
+          </div> 
+      </div> 
+
+      `;
+
 }
