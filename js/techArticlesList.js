@@ -23,10 +23,46 @@ function techFeatureArticles(){
 
       <div class="text menu-container">      
          <div class="menuitem">
+              <a class="link" href="https://leaddev.com/career-development/why-it-might-be-time-to-consider-a-career-in-crypto">
+              <div class="title">Crypto is hiring developers. Interested?</div><div class="publication-link">LeadDev(2025)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://leaddev.com/career-development/how-ai-will-change-software-engineering">
+              <div class="title">How AI will change software engineering</div><div class="publication-link">LeadDev (2025)</div>
+          </div> 
+      </div> 
+
+
+      <div class="text menu-container">      
+         <div class="menuitem">
               <a class="link" href="https://www.theblock.co/post/199734/crypto-vc-token-bets-delayed?utm_source=onecryptofeed&utm_medium=social">
               <div class="title">Crypto VCs say half their token bets are sidelined with no launch date in sight</div><div class="publication-link">The Block (2023)</div>
           </div> 
       </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/how-banks-are-vetting-genai/">
+              <div class="title">How banks are vetting GenAI</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/news/citywire-seeks-to-deepen-audience-insights-via-ai-powered-ask-citywire/">
+              <div class="title">Citywire Seeks to Deepen Audience Insights via AI-Powered ‘Ask Citywire’</div><div class="publication-link">A Media Operator (2025)</div>
+          </div> 
+      </div>
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/analysis/publishers-find-traffic-with-an-unlikely-source/">
+              <div class="title">Publishers Find Traffic With An Unlikely Source</div><div class="publication-link">A Media Operator (2025)</div>
+          </div> 
+      </div>
 
        <div class="text menu-container">      
          <div class="menuitem">
@@ -55,6 +91,13 @@ function techFeatureArticles(){
               <div class="title">Aptos lures Solana developers tired of 'eating glass'</div><div class="publication-link">The Block (2022)</div>
           </div> 
       </div>
+
+       <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/new-cyber-regs-spotlight-cisos-personal-liability/">
+              <div class="title">New cyber regs spotlight CISOs' personal liability</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
+          </div> 
+      </div> 
 
 
       <div class="text menu-container">      

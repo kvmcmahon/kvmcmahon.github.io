@@ -12,6 +12,7 @@ function pubArticles(){
        <menu-link linkName="Golf Monthly" linkURL="../html/listOfArticles.html?category=GolfMonthly" ></menu-link>
        <menu-link linkName="A Media Operator" linkURL="../html/listOfArticles.html?category=AMO" ></menu-link>
        <menu-link linkName="Banking, Risk & Regulation" linkURL="../html/listOfArticles.html?category=BankingRiskReg" ></menu-link>
+       <menu-link linkName="LeadDev" linkURL="../html/listOfArticles.html?category=LeadDev" ></menu-link>
       `;
 }
 
@@ -326,6 +327,42 @@ function AMOArticles(){
       
       <div class="text menu-container">      
          <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/news/citywire-seeks-to-deepen-audience-insights-via-ai-powered-ask-citywire/">
+              <div class="title">Citywire Seeks to Deepen Audience Insights via AI-Powered ‘Ask Citywire’</div><div class="publication-link">A Media Operator (2025)</div>
+          </div> 
+      </div>
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/analysis/publishers-find-traffic-with-an-unlikely-source/">
+              <div class="title">Publishers Find Traffic With An Unlikely Source</div><div class="publication-link">A Media Operator (2025)</div>
+          </div> 
+      </div>
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/news/the-us-is-poised-to-become-the-leading-market-for-media-capital-by-2030/">
+              <div class="title">The US Is Poised To Become The Leading Market For Media Capital By 2030</div><div class="publication-link">A Media Operator (2025)</div>
+          </div> 
+      </div>
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/analysis/the-financial-times-among-uk-media-expanding-into-venture-investing/">
+              <div class="title">The Financial Times Among UK Media Expanding Into Venture Investing</div><div class="publication-link">A Media Operator (2025)</div>
+          </div> 
+      </div> 
+
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/profile/uk-magazine-the-fence-celebrates-fifth-anniversary-seeks-investors-for-further-growth/">
+              <div class="title">UK Magazine The Fence Celebrates Fifth Anniversary, Seeks Investors for Further Growth</div><div class="publication-link">A Media Operator (2024)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
               <a class="link" href="https://www.amediaoperator.com/news/what-is-tortoise-media-the-loss-making-media-startup-trying-to-buy-the-uks-observer/">
               <div class="title">What Is Tortoise Media? The Loss-Making Media Startup Trying to Buy the UK’s Observer</div><div class="publication-link">A Media Operator (2024)</div>
           </div> 
@@ -361,6 +398,27 @@ function AMOArticles(){
 
 function bankingRiskRegArticles(){
       return `
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/how-banks-are-vetting-genai/">
+              <div class="title">How banks are vetting GenAI</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/cost-cutting-push-drives-risk-and-compliance-offshore/">
+              <div class="title">Cost-cutting push drives risk and compliance offshore</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/new-cyber-regs-spotlight-cisos-personal-liability/">
+              <div class="title">New cyber regs spotlight CISOs' personal liability</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
+          </div> 
+      </div> 
       
       <div class="text menu-container">      
          <div class="menuitem">
@@ -368,6 +426,29 @@ function bankingRiskRegArticles(){
               <div class="title">CFTC crackdown leads to surge in fines for swap reporting failures</div><div class="publication-link">Banking, Risk & Regulation (2024)</div>
           </div> 
       </div> 
+
+      `;
+
+}
+
+function leadDevArticles(){
+      return `
+      
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://leaddev.com/career-development/why-it-might-be-time-to-consider-a-career-in-crypto">
+              <div class="title">Crypto is hiring developers. Interested?</div><div class="publication-link">LeadDev(2025)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://leaddev.com/career-development/how-ai-will-change-software-engineeringß">
+              <div class="title">How AI will change software engineering</div><div class="publication-link">LeadDev (2025)</div>
+          </div> 
+      </div> 
+
+
 
       `;
 

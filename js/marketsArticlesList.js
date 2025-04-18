@@ -1,6 +1,14 @@
 function marketsArticles(){
   return `
       
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/how-banks-are-vetting-genai/">
+              <div class="title">How banks are vetting GenAI</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
+          </div> 
+      </div> 
+
+
 
       <div class="text menu-container">      
          <div class="menuitem">
@@ -57,6 +65,20 @@ function marketsArticles(){
          <div class="menuitem">
               <a class="link" href="https://www.businessinsider.com/market-wizard-trader-trading-floor-strategy-citi-rates-deirdre-dunn-2021-6">
               <div class="title">Deirdre Dunn started her career winning a hamburger-eating contest on the trading floor at Goldman Sachs. Now she's one of Wall Street's star traders at Citigroup.</div><div class="publication-link">Business Insider (2021)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/how-banks-are-vetting-genai/">
+              <div class="title">How banks are vetting GenAI</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
+          </div> 
+      </div> 
+
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.bankingriskandregulation.com/cost-cutting-push-drives-risk-and-compliance-offshore/">
+              <div class="title">Cost-cutting push drives risk and compliance offshore</div><div class="publication-link">Banking, Risk & Regulation (2025)</div>
           </div> 
       </div> 
 

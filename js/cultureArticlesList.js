@@ -38,6 +38,13 @@ function cultureArticles(){
           </div> 
       </div>
 
+      <div class="text menu-container">      
+         <div class="menuitem">
+              <a class="link" href="https://www.amediaoperator.com/analysis/the-financial-times-among-uk-media-expanding-into-venture-investing/">
+              <div class="title">The Financial Times Among UK Media Expanding Into Venture Investing</div><div class="publication-link">A Media Operator (2025)</div>
+          </div> 
+      </div> 
+
       <div class="menu-container">      
          <div class="menuitem">
               <a class="link" href="https://www.businessinsider.com/i-tried-pickleball-rules-court-paddles-2023-7">

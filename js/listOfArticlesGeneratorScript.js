@@ -154,9 +154,13 @@ class Articles extends HTMLElement {
     {
       listOfArticles.innerHTML = listOfArticles.innerHTML + AMOArticles();
     }
-     else if(category == "BankingRiskReg")
+    else if(category == "BankingRiskReg")
     {
       listOfArticles.innerHTML = listOfArticles.innerHTML + bankingRiskRegArticles();
+    }
+    else if(category == "LeadDev")
+    {
+      listOfArticles.innerHTML = listOfArticles.innerHTML + leadDevArticles();
     }
 
 
